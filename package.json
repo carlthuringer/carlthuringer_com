@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "description": "Carl's Homepage and Sites",
   "main": "",
-  "scripts": {},
+  "scripts": {
+    "build": "node ./src/build.js"
+  },
   "author": "Carl Thuringer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it": "^8.4.2"
+  }
 }
