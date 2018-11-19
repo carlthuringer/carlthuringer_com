@@ -71,5 +71,3 @@ To Friends and Families: Use the phone. Plan a trip together. Get together aroun
 To Groups and Grassroots Organizations: Mailing lists, IRC, or if you want to experiment, new communications platforms like keybase and patchwork offer highly decentralized models for community organization and communication.
 
 [Home](/)
-
-Test
