@@ -13,7 +13,8 @@ This is because Facebook's engineers are constantly optimizing the system to hol
 A curious thing began happening after I deleted the Facebook app and logged out on my devices. After about three weeks, I started getting text messages from `326-65` with content like:
 
 > Carl, John Smith shared a link: https://fb.com/l/as1289gh1jdsf
-> The attention machine, begging for scraps. If you have notifications turned on, Facebook is strategically buzzing your phone, learning which notifications are most likely to get you to pick up, then optimizing again.
+
+The attention machine, begging for scraps. If you have notifications turned on, Facebook is strategically buzzing your phone, learning which notifications are most likely to get you to pick up, then optimizing again.
 
 Do you remember boredom? It's this thing that used to happen to people when they didn't have much to do, or were waiting in line or riding a bus. People would become bored and look out the window, or close their eyes if they were tired. Maybe think about a problem at work, an argument, or reflect on a happy memory. Nobody could escape boredom by reaching into their pocket and pulling out a screen and scrolling. Boredom is extinct.
 
@@ -70,3 +71,5 @@ To Friends and Families: Use the phone. Plan a trip together. Get together aroun
 To Groups and Grassroots Organizations: Mailing lists, IRC, or if you want to experiment, new communications platforms like keybase and patchwork offer highly decentralized models for community organization and communication.
 
 [Home](/)
+
+Test

@@ -1,15 +1,18 @@
 {
   "name": "carlthuringer_com",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Carl's Homepage and Sites",
   "main": "",
   "scripts": {
-    "prebuild": "tsc && rm -rf dist && mkdir dist",
-    "build": "node -e \"require('./build').build();\""
+    "create": "dat create dist",
+    "prebuild": "tsc && rm -f dist/**/*.html",
+    "build": "node -e \"require('./build').build();\"",
+    "publish": "dat share dist"
   },
   "author": "Carl Thuringer",
   "license": "ISC",
   "dependencies": {
+    "dat": "^13.11.4",
     "markdown-it": "^8.4.2"
   },
   "devDependencies": {
