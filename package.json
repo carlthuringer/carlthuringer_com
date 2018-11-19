@@ -4,11 +4,16 @@
   "description": "Carl's Homepage and Sites",
   "main": "",
   "scripts": {
-    "build": "node ./src/build.js"
+    "build": "tsc && node -e \"require('./build').build();\""
   },
   "author": "Carl Thuringer",
   "license": "ISC",
   "dependencies": {
     "markdown-it": "^8.4.2"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "0.0.7",
+    "@types/node": "^10.12.9",
+    "typescript": "^3.1.6"
   }
 }
