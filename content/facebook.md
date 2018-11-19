@@ -1,4 +1,4 @@
-# I have Left Facebook and You Should Too
+# I Left Facebook and You Should Too
 
 Hello Friends, this is my last post on Facebook. I am leaving. This place does not deserve my attention or trust. I will go into 2019 making more meaningful, honest, and genuine social interactions with the people I love and care about.
 
@@ -68,3 +68,5 @@ To Debaters: Join a small debate forum focused on the topic of interest. Or star
 To Friends and Families: Use the phone. Plan a trip together. Get together around a campfire like humans have been doing for hundreds of millions of years. It's going to take something a lot more carefully designed than Social Media to improve upon that.
 
 To Groups and Grassroots Organizations: Mailing lists, IRC, or if you want to experiment, new communications platforms like keybase and patchwork offer highly decentralized models for community organization and communication.
+
+[Home](/)
