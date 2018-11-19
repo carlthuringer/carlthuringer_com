@@ -1,4 +1,5 @@
 import fs from "fs";
+import { basename } from "path";
 import MarkdownIt from "markdown-it";
 
 type Dict = { [index: string]: string };
@@ -56,7 +57,7 @@ const init = async (): Promise<Environment> => {
   for (let file of contentFiles) {
     const fileBuffer = await promisingOne(fs.readFile, `content/${file}`);
     const rendered = md.render(fileBuffer.toString());
-    env.content[file] = rendered;
+    env.content[basename(file, ".md")] = rendered;
   }
 
   return env;
