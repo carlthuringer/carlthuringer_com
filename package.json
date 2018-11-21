@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "Carl's Homepage and Sites",
   "main": "",
+  "repository": "https://github.com/carlthuringer/carlthuringer_com.git",
   "scripts": {
     "create": "dat create dist",
     "prebuild": "tsc && rm -f dist/**/*.html",
