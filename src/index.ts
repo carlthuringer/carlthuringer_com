@@ -64,7 +64,7 @@ const init = async (): Promise<Environment> => {
 };
 
 const indexTemplate: TemplateFn = binds =>
-  `<DOCTYPE !html>
+  `<!DOCTYPE html>
   <html>
   <body>
   ${binds.body}
