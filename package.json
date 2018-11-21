@@ -6,7 +6,7 @@
   "repository": "https://github.com/carlthuringer/carlthuringer_com.git",
   "scripts": {
     "create": "dat create dist",
-    "prebuild": "tsc && rm -f dist/**/*.html",
+    "prebuild": "tsc && rm -f dist/**/*.html && cp public/* dist/",
     "build": "node -e \"require('./build').build();\"",
     "publish": "dat share dist"
   },

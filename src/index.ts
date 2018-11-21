@@ -70,6 +70,10 @@ const indexTemplate: TemplateFn = binds =>
     <title>Carl Thuringer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Description" content="Carl Thuringer's Blog.">
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_16.png">
   </head>
   <body>
   ${binds.body}
