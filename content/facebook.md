@@ -1,6 +1,8 @@
 # I Left Facebook and You Should Too
 
-Hello Friends, this is my last post on Facebook. I am leaving. This place does not deserve my attention or trust. I will go into 2019 making more meaningful, honest, and genuine social interactions with the people I love and care about.
+Hello Friends, I hope you can find me here, because soon you will not find me on Facebook. It was never necessary to be found on a social network in the first place, and it has become clear that Facebook and networks like it are not altruistic or considerate of health and human needs. These systems convert attention into money for the sole purpose of self-perpetuation and market domination. Such forces must not be trusted. Facebook has shown that it cannot be trusted to guard our privacy. Because it does not care to foster healthy, meaningful connections and empower users to self-publish, it does not deserve us. We must leave it, and take control of our information.
+
+I will go into 2019 making more meaningful, honest, and genuine social interactions with the people I love and care about.
 
 This article is an experiment in self publishing and persuasion. I hope to persuade you to leave with me. I believe that in the future we need to find technology which serves us, and reject technology which enslaves and manipulates us. I'll make my case here, and if you want to talk to me about it, please call.
 
