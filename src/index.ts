@@ -65,7 +65,12 @@ const init = async (): Promise<Environment> => {
 
 const indexTemplate: TemplateFn = binds =>
   `<!DOCTYPE html>
-  <html>
+  <html lang="en">
+  <head>
+    <title>Carl Thuringer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Carl Thuringer's Blog.">
+  </head>
   <body>
   ${binds.body}
   </body>
