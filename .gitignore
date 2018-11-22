@@ -1,4 +1,5 @@
-node_modules
-build
-dist
+_site
+.sass-cache
+.jekyll-metadata
 .dat
+dist
