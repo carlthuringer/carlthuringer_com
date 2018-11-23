@@ -31,19 +31,6 @@ export const build = async () => {
   let env = await init();
   let outputs = compileTemplates(env);
   await write(outputs);
-
-  // COMPILE
-  // OUTPUT
-
-  // let renders: { [index: string]: string } = {};
-  // for (let file of contents) {
-  //   const fileBuffer = await promisingOne(fs.readFile, `content/${file}`);
-  //   const rendered = md.render(fileBuffer.toString());
-  //   renders[file] = rendered;
-  // }
-
-  // for (let render in renders) {
-  // }
 };
 
 const init = async (): Promise<Environment> => {
@@ -55,7 +42,7 @@ const init = async (): Promise<Environment> => {
   );
 
   for (let file of contentFiles) {
-    const fileBuffer = await promisingOne(fs.readFile, `content/${file}`);
+    const fileBuffer = await promisingOne(fs.readFile, `content/pages/${file}`);
     const rendered = md.render(fileBuffer.toString());
     env.content[basename(file, ".md")] = rendered;
   }
