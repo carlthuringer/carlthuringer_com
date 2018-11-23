@@ -13,7 +13,6 @@
   "author": "Carl Thuringer",
   "license": "ISC",
   "dependencies": {
-    "dat": "^13.11.4",
     "markdown-it": "^8.4.2"
   },
   "devDependencies": {
