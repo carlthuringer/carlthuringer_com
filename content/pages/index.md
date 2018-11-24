@@ -3,7 +3,7 @@
 This is an experiment in self publishing.
 
 Table of Contents:
-[Facebook](/facebook)
+[Ownership](/ownership) | [Facebook](/facebook)
 
 Goals:
 

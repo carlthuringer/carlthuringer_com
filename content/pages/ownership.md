@@ -12,7 +12,7 @@ You drive the car every day that week, up and down the hill, and stop thinking a
 "Gas? What is gas?" You ask, frowning.
 "You also need to change the oil, and it's pretty dirty. You should clean it up."
 
-The car doesn't seem as convenient, now you have to drive it to the gas station in addition to the regular trip up and down the hill, and you have to pay for an oil change, and keep it clean. And more, you need to pay for insurance, registration, a license!
+These responsibilities weren't apparent when you accepted the free car! Now you have to drive it to the gas station in addition to the regular trip up and down the hill, and you have to pay for an oil change, and keep it clean. And more, you need to pay for insurance, registration, emissions tests!
 
 Technology, even free or inexpensive technology, comes with a cost, and the cost isn't always apparent to us at the outset. This blog is produced in plain text using Markdown formatting, which makes it robust and simple to read and parse. The internet operates on HTML over HTTP, which is not a big step from text on a disk, but it is not trivial either.
 

@@ -3,13 +3,9 @@ import { basename } from "path";
 import MarkdownIt from "markdown-it";
 
 type Dict = { [index: string]: string };
-type TemplateFn = (binds: Dict) => string;
 
 export type Environment = {
   content: Dict;
-  templates: {
-    [index: string]: TemplateFn;
-  };
 };
 
 export const build = async () => {
@@ -20,7 +16,7 @@ export const build = async () => {
 
 const init = async (): Promise<Environment> => {
   const md = new MarkdownIt({ typographer: true });
-  let env: Environment = { content: {}, templates: { index: indexTemplate } };
+  let env: Environment = { content: {} };
   const contentFiles = await new Promise<fs.Dirent[]>((res, rej) =>
     fs.readdir("content/pages", { withFileTypes: true }, (err, files) =>
       err ? rej(err) : res(files)
@@ -42,7 +38,7 @@ const init = async (): Promise<Environment> => {
   return env;
 };
 
-const indexTemplate: TemplateFn = binds =>
+const indexTemplate = ({ body }: Dict) =>
   `<!DOCTYPE html>
   <html lang="en">
   <head>
@@ -55,7 +51,7 @@ const indexTemplate: TemplateFn = binds =>
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon_16.png">
   </head>
   <body>
-  ${binds.body}
+  ${body}
   </body>
   </html>
   `;
@@ -69,7 +65,7 @@ const mapDict = (xs: Dict, fn: (x: string) => string): Dict => {
 };
 
 const compileTemplates = (env: Environment) =>
-  mapDict(env.content, c => env.templates.index({ body: c }));
+  mapDict(env.content, c => indexTemplate({ body: c }));
 
 const write = async (compiledTemplates: Dict) => {
   for (let template in compiledTemplates) {
