@@ -70,4 +70,4 @@ class Server {
   };
 }
 
-export default (serverRoot: string) => new Server(serverRoot).start();
+export const serve = (serverRoot: string) => new Server(serverRoot).start();

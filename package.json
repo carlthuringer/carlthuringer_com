@@ -6,10 +6,11 @@
   "repository": "https://github.com/carlthuringer/carlthuringer_com.git",
   "scripts": {
     "create": "dat create dist",
-    "prebuild": "tsc && rm -f dist/**/*.html && cp public/* dist/",
-    "build": "node -e \"require('./build').build();\"",
+    "prebuild": "rm -f dist/**/*.html && cp public/* dist/",
+    "build": "tsc && node -e \"require('./build').build();\"",
     "publish": "dat share dist",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "server": "tsc && node -e \"require('./build/server').serve('./dist/')\""
   },
   "author": "Carl Thuringer",
   "license": "ISC",
