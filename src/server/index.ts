@@ -35,21 +35,16 @@ class Server {
       "request",
       (req: http.IncomingMessage, res: http.ServerResponse) => {
         const reqPath = req.url;
-        const reqMethod = req.method;
 
         let fullPath: string;
-        if (
-          typeof reqPath == "string" &&
-          reqPath.length > 0 &&
-          reqPath != "/"
-        ) {
+        if (typeof reqPath == "undefined" || reqPath == "/") {
+          fullPath = join(this.serverRoot, "index.html");
+        } else {
           if (extname(reqPath) == "") {
             fullPath = join(this.serverRoot, reqPath + ".html");
           } else {
             fullPath = join(this.serverRoot, reqPath);
           }
-        } else {
-          fullPath = join(this.serverRoot, "index.html");
         }
 
         let mimeType = MIME_TYPE_MAP[extname(fullPath)];
@@ -58,7 +53,7 @@ class Server {
           this.log("PRS", `Unknown Mime Type for ${fullPath}`);
         }
 
-        console.log(reqMethod, fullPath);
+        this.log("SRV", `${req.method} - ${fullPath}`);
         readFile(fullPath, (err, data) => {
           if (err) {
             this.respondToError(err, res);
