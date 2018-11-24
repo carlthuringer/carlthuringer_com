@@ -3,21 +3,6 @@ import { basename } from "path";
 import MarkdownIt from "markdown-it";
 
 type Dict = { [index: string]: string };
-
-const promisingOne = <A1, T>(
-  fn: (arg: A1, cb: (err: Error, res: T) => void) => void,
-  arg: A1
-): Promise<T> =>
-  new Promise((resolve, reject) =>
-    fn(arg, (err: Error, res: T) => {
-      if (err) {
-        reject(err);
-      } else {
-        resolve(res);
-      }
-    })
-  );
-
 type TemplateFn = (binds: Dict) => string;
 
 export type Environment = {
@@ -36,15 +21,22 @@ export const build = async () => {
 const init = async (): Promise<Environment> => {
   const md = new MarkdownIt({ typographer: true });
   let env: Environment = { content: {}, templates: { index: indexTemplate } };
-  const contentFiles = await promisingOne<fs.PathLike, string[]>(
-    fs.readdir,
-    "content"
+  const contentFiles = await new Promise<fs.Dirent[]>((res, rej) =>
+    fs.readdir("content/pages", { withFileTypes: true }, (err, files) =>
+      err ? rej(err) : res(files)
+    )
   );
 
   for (let file of contentFiles) {
-    const fileBuffer = await promisingOne(fs.readFile, `content/pages/${file}`);
-    const rendered = md.render(fileBuffer.toString());
-    env.content[basename(file, ".md")] = rendered;
+    if (!file.isDirectory()) {
+      const fileBuffer = await new Promise<Buffer>((res, rej) =>
+        fs.readFile(`content/pages/${file.name}`, (err, data) =>
+          err ? rej(err) : res(data)
+        )
+      );
+      const rendered = md.render(fileBuffer.toString());
+      env.content[basename(file.name, ".md")] = rendered;
+    }
   }
 
   return env;
