@@ -8,7 +8,8 @@
     "create": "dat create dist",
     "prebuild": "tsc && rm -f dist/**/*.html && cp public/* dist/",
     "build": "node -e \"require('./build').build();\"",
-    "publish": "dat share dist"
+    "publish": "dat share dist",
+    "tsc": "tsc"
   },
   "author": "Carl Thuringer",
   "license": "ISC",
