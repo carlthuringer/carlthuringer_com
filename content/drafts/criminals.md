@@ -32,3 +32,19 @@ Civil and Criminal societies exist as light and shadow, and the Criminal society
 [Why Is Violence prevolent in criminal societies?]
 
 Secondly because violence is prevalent in criminal society, it must be controlled to minimize structural upheaval in the criminal society. Therefore the second law is that one always respects the heirarchy. After one has, through violence, placed themself above all others, they are the absolute ruler. By decree, or further violence, others organize themselves similarly below the ruler, and with this order violence within criminal societies is minimized.
+
+## Sub-criminal Crimes
+
+Wherever there is a law, there too is a crime, but there may not be a criminal. Consider the crime of jaywalking. Does the jaywalker have the conviction and hardening of a criminal who has rejected the civil society completely? No, they probably didn't acquire that between one curb and the next, and though the crossing of a busy street can be brutal, it is far from the Law of Nature.
+
+So therefore there are those that engage in criminal behavior but who are not criminals, in the sense that they still participate (mostly) in the civil society. What does this mean? Are these people progressing by inches towards criminal conviction?
+
+Though a given criminal act does not cause future criminal acts, it is a record of progress towards criminal conviction. The person committing the act has only three possible futures.
+
+First, they may correct their own behavior. Deciding that to obey the ordinance against jaywalking is correct and conductive to the civil society and commerce. After all, doing so often impedes traffic and creates inefficiencies in the system. Such is an example of one's reasoning for the self-correction. If one believes truly in this reasoning that may be the end of it, though life is for each person a struggle, and they may lapse.
+
+Second, the civil society may correct their behavior with violence. Not brutal violence, for most, but in the form of a visit from an officer of the law, a fine, and perhaps even an appearance before a magistrate and a stern reprimand. Coercive correction is not as effective as self-correction, but it will discourage the corrected behavior for some time.
+
+Third, the person will change the civil society such that their behavior is no longer criminal. By continued resistance, appeal, and participation in the civil society, especially democratic societies, it is possible for the person to change the society. This is the most difficult and admirable thing for a person in the civil society to do. To intentionally and will full conviction step over that line, draw a new one just beyond their foot, and declare themselves to be still within the civil society, and to then fight to rejoin their world with that of the civil society.
+
+Fourth, the person does not change the civil society and does not correct their behavior. They are now a criminal. They will be repeatedly punished by the civil society, passed through the justice system, and come into contact with other criminals. Naturally they will come to see the civil society as an oppressor and enemy, and sooner or later they will be forced to join the criminal society.
